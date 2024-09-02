@@ -1,2 +1,9 @@
-# Learning-RPG
-A simple and original RPG created using Godot for the purpose of learning to develop using the game engine. Control a character to attack endless waves of enemies!
+# Learning RPG
+A simple and original RPG created using Godot for the purpose of learning to develop using the game engine. Available to play on web at https://arz-c.itch.io/learning-rpg.
+
+## Some technical highlights:
+- Used an object-oriented approach where each node is placed within a hierarchy. Followed the best practice: parent nodes call methods on child nodes, and child nodes emit signals which may be caught by parent nodes.
+- Combined inheritence (e.g. when designing states for the enemy AI's state machine) and composition (e.g. when implementing health bars and hitboxes across several entities).
+- Enemy slime AI follows a state machine which navigates between an idle wander, chasing the player, and attacking the player.
+- Animated sprites and level layouts were implemented using sprite sheets and tile maps.
+- Hitboxes were used for body collisions and attack ranges.
