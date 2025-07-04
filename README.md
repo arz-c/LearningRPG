@@ -1,5 +1,5 @@
-# Learning RPG
-A simple and original RPG created using Godot for the purpose of learning to develop using the game engine. Available to play on web at https://arz-c.itch.io/learning-rpg.
+# Destroy Slimes!
+A simple combat game created using Godot for the purpose of learning to develop using the game engine. Available to play on web at https://arz-c.itch.io/learning-rpg.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b4a600d1-b2da-4667-be43-cbec1343fbaa" width="250" height="250">
